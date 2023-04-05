@@ -10,4 +10,6 @@ while 1:
     modifiedMessage = message.decode("utf-8")
     modifiedMessage = modifiedMessage.upper()
 
+    serverSocket.sendto()
+
 # rispondo tramite la socket
